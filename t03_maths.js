@@ -16,10 +16,11 @@ birthYear = currentYear - age;
 /*****************************
  Main code
 ******************************/
-console.log("Hi " + username + " As of " + currentYear + " you are " + age + " years old." + "" You have " + pocketMoney + " dollars." )
-
-
+console.log("Hi " + username + " As of " + currentYear + " you are " + age + " years old.")
+console.log(" You were born in " + birthYear )
+console.log("In 10 years you will be " + oldAge + " years old. "+ "You have " + pocketMoney + " dollars." )
+console
 
 /*******************************
  Fuctions
- *******************************/de from task 2 here */
+ *******************************
