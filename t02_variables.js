@@ -13,7 +13,7 @@ let currentYear= 2026;
 /*****************************
  Main code
 ******************************/
-console.log("Hi"+ username +"As of"+ currentYear +"you are"+ age +"years old."+"You have"+ pocketMoney +"dollars")
+console.log("Hi" + username + "As of" + currentYear + "you are" + age + "years old." + "You have" + pocketMoney + "dollars" )
 
 
 
