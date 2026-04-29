@@ -21,7 +21,7 @@ console.log("Hi " + username + " As of " + currentYear + " you are " + age + " y
 console.log("You were born in " + birthYear)
 console.log("In 10 years you will be " + oldAge + " years old. "+ "You have " + pocketMoney + " dollars." )
 console.log("You spend half of your money, now you have " + halfMoney)
-console.log("Then you get $3, now you have")
+console.log("Then you get $3, now you have " + (halfMoney+3) + " dollars.")
 
 
 /*******************************
