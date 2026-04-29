@@ -1,10 +1,9 @@
 /****************************
 Name of task: Introduction
 ****************************/
+console.log("Running t01_introduction.js")
+console.log("hello")
 
-
-//Variables
-let username="alice"
 
 /*****************************
  Main code
