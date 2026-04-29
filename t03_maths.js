@@ -9,9 +9,9 @@ let pocketMoney= 20;
 let currentYear= 2026;
 let oldAge;
 let birthYear;
-oldAge = age + 10;
-birthYear = currentYear - age;
-money
+oldAge = age+10;
+birthYear = currentYear-age;
+halfMoney = pocketMoney/2;
 
 /*****************************
  Main code
@@ -19,8 +19,9 @@ money
 console.log("Hi " + username + " As of " + currentYear + " you are " + age + " years old.")
 console.log("You were born in " + birthYear)
 console.log("In 10 years you will be " + oldAge + " years old. "+ "You have " + pocketMoney + " dollars." )
-console.log("You spend half of your money, now you have " + )
+console.log("You spend half of your money, now you have " + halfMoney)
+console.log("Then you get $3, now you have")
 
 /*******************************
  Fuctions
- *******************************
+ ***************************** 
