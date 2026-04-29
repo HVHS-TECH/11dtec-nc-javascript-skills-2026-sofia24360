@@ -6,12 +6,14 @@ console.log("hello")
 
 //Variables
 let username="Alice"
-let age= "13"
+let age= 13;
+let pocketMoney= 20;
+let currentYear= 2026;
 
 /*****************************
  Main code
 ******************************/
-console.log("Hi"+username+"As of"+"you are"+age+"years old."+"You have"+money+"dollars")
+console.log("Hi"+ username +"As of"+ currentYear +"you are"+ age +"years old."+"You have"+ pocketMoney +"dollars")
 
 
 
