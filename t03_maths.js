@@ -23,6 +23,7 @@ console.log("In 10 years you will be " + oldAge + " years old. "+ "You have " + 
 console.log("You spend half of your money, now you have " + halfMoney)
 console.log("Then you get $3, now you have")
 
+
 /*******************************
  Fuctions
- ***************************** 
+ *******************************/
