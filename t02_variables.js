@@ -1,1 +1,19 @@
-/* Paste your code from task 1 here */
+/****************************
+Name of task: variables
+****************************/
+console.log("Running t01_introduction.js")
+console.log("hello")
+
+//Variables
+
+
+/*****************************
+ Main code
+******************************/
+
+
+
+
+/*******************************
+ Fuctions
+ *******************************/
