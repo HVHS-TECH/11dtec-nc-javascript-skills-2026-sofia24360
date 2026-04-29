@@ -9,6 +9,7 @@ let pocketMoney= 20;
 let currentYear= 2026;
 let oldAge;
 let birthYear;
+let halfMoney;
 oldAge = age+10;
 birthYear = currentYear-age;
 halfMoney = pocketMoney/2;
