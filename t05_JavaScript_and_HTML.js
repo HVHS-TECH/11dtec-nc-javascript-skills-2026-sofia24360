@@ -10,6 +10,7 @@ Name of task: JavaScript and HTML
 console.log("Running task 05")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>"
 
 
 
