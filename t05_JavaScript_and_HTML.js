@@ -17,7 +17,8 @@ halfMoney = pocketMoney/2;
 /*****************************
  Main code
 ******************************/
-console.log("")
+console.log("Running task 05")
+
 
 
 
