@@ -9,9 +9,9 @@ Name of task: Functions parameters
 ******************************/
 console.log("Running task 07");
 
-displayWelcome("Chocolate bar", 4);
-displayWelcome("Chips", 3);
-displayWelcome("drink", 2.50);
+displayWelcome("Chocolate bar", "$4");
+displayWelcome("Chips", "$3");
+displayWelcome("drink", "$2.50");
 
 
 
