@@ -9,7 +9,7 @@ Name of task: Functions parameters
 ******************************/
 console.log("Running task 07");
 
-displaywelcome()
+displayWelcome()
 
 
 
@@ -21,5 +21,5 @@ displaywelcome()
  function displayWelcome(_name, _price){
     // Add a line to the html page
     const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+    OUTPUT.innerHTML += _name+" : ";
  }
