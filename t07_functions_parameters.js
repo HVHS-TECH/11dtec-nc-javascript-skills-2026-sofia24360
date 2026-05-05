@@ -23,5 +23,5 @@ displayWelcome("drink", 2.50);
  function displayWelcome(_name, _price){
     // Add a line to the html page
     const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-    OUTPUT.innerHTML += _name+" : "+"$"_price
+    OUTPUT.innerHTML += _name+" : "+_price;
  }
