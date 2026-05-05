@@ -20,5 +20,6 @@ welcome()
 
  function welcome(){
     // Add a line to the html page
-    OUTPUT.innerHTML = "<p>Welcome to the shop</p>";
+    const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
  }
