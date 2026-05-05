@@ -11,7 +11,7 @@ console.log("Running task 07");
 
 displayWelcome("Chocolate bar", "$4");
 displayWelcome("Chips", "$3");
-displayWelcome("drink", "$2.50");
+displayWelcome("Drink", "$2.50");
 
 
 
@@ -23,5 +23,8 @@ displayWelcome("drink", "$2.50");
  function displayWelcome(_name, _price){
     // Add a line to the html page
     const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+    OUTPUT.innerHTML += "<br>";
     OUTPUT.innerHTML += _name+" : "+_price;
+    OUTPUT.innerHTML += "<br>";
+
  }
