@@ -9,7 +9,7 @@ Name of task: Functions
 ******************************/
 console.log("Running task 06");
 
-
+welcome()
 
 
 
@@ -19,5 +19,5 @@ console.log("Running task 06");
  *******************************/
 
  function welcome(){
-    
+    OUTPUT.innerHTML += "<h2>Welcome to the shop</h2>";
  }
