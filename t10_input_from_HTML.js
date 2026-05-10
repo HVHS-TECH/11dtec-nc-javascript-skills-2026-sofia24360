@@ -9,6 +9,11 @@ Name of task: Input from HTML
 ******************************/
 console.log("Running task 10");
 
+<form>
+    <input type="text">
+    <input type="submit">
+</form>
+
 
 
 
