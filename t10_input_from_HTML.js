@@ -10,16 +10,12 @@ Name of task: Input from HTML
 ******************************/
 console.log("Running task 10");
 
-<form>
-    <input type="text">
-    <input type="submit">
+<form onsubmit="return false;">>
+    <input type="text" id="usersname" name= "formName">
+    <input type="submit" onClick='getFormInput()'>
+    <label for="forName">Name:</label>
 </form>
 
-<form onsubmit="return false;">
-    <label for="forName">Name:</label>
-    <input type="text" id="usersname" name= "formName">
-   <input type="submit" onClick = getFormInput()>
-</form> 
 
 
 
