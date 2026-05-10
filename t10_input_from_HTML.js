@@ -1,8 +1,7 @@
 /****************************
 Name of task: Input from HTML
 ****************************/
-const USERS_NAME = document.getElementById("usersname");
-var userName = USERS_NAME.value;
+
 
 
 
@@ -31,5 +30,7 @@ console.log("Running task 10");
  Fuctions
  *******************************/
 function getFormInput() {
-    
+    const USERS_NAME = document.getElementById("usersname");
+    let userName = USERS_NAME.value;
+    OUTPUT.innerHTML = "<p>Your name is "+userName+ "</p>";
 }
