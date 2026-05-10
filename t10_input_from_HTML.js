@@ -1,6 +1,8 @@
 /****************************
 Name of task: Input from HTML
 ****************************/
+const USERS_NAME = document.getElementById("usersname");
+var userName = USERS_NAME.value;
 
 
 
