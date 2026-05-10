@@ -15,7 +15,8 @@ console.log("Running task 10");
 </form>
 
 <form onsubmit="return false;">
-    <input type="text" id="usersname">
+    <label for="forName">Name:</label>
+    <input type="text" id="usersname" name= "formName">
     <input type="submit" onClick = getFormInput()>
 </form>
 
@@ -27,5 +28,3 @@ console.log("Running task 10");
 /*******************************
  Fuctions
  *******************************/
-
- 
