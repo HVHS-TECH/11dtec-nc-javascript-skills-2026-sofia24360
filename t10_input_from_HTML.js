@@ -19,7 +19,7 @@ console.log("Running task 10");
     <label for="forName">Name:</label>
     <input type="text" id="usersname" name= "formName">
     <input type="submit" onClick = getFormInput()>
-</form>
+
 
 
 
