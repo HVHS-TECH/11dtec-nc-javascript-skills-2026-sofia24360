@@ -14,6 +14,12 @@ console.log("Running task 10");
     <input type="submit">
 </form>
 
+<form onsubmit="return false;">
+    <input type="text" id="usersname">
+    <input type="submit" onClick = getFormInput()>
+</form>
+
+
 
 
 
@@ -22,9 +28,4 @@ console.log("Running task 10");
  Fuctions
  *******************************/
 
- function start(){
-    // Add a line to the html page
-    
-    const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
- }
+ 
