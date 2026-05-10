@@ -30,3 +30,6 @@ console.log("Running task 10");
 /*******************************
  Fuctions
  *******************************/
+function getFormInput() {
+    
+}
