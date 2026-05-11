@@ -26,6 +26,6 @@ console.log("Running task 10");
  *******************************/
 function getFormInput() {
     const USERS_NAME = document.getElementById("usersname");
-    let userName = USERS_NAME.value;
+    var userName = USERS_NAME.value;
     OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
 }
