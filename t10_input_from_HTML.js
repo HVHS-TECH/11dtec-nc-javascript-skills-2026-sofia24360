@@ -21,7 +21,7 @@ console.log("Running task 10");
 
 /*******************************
  Fuctions
- *******************************/
+********************************/
 function getFormInput(){
     const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
     let userName = NAME_FIELD.value;
