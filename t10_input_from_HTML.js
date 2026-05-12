@@ -11,11 +11,11 @@ Name of task: Input from HTML
 console.log("Running task 10");
 
 
-<form onsubmit="return false;">
+ <form>
  <label for="formName">Name: </label>
  <input type="text" id="nameField" name="forName">
 
-</form>
+ </form>
 
 
 
@@ -23,8 +23,8 @@ console.log("Running task 10");
  Fuctions
 ********************************/
 function getFormInput(){
-    const N = document.getElementById("spaceForJavaScriptOutput");
-    var  = NAME_FIELD.value;
+    const OUTPUT= document.getElementById("spaceForJavaScriptOutput");
+    var userName = OUTPUT.value;
     OUTPUT.innerHTML = "<p>Your name is "+ userName +"</p>"
 
 }
