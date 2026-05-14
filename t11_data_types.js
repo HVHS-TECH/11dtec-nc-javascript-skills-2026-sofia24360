@@ -24,6 +24,4 @@ function getFormInput(){
     OUTPUT.innerHTML += "<p> Your age is " + userAge + "</p>";
     let userMoney = POCKET_MONEY.value;
     OUTPUT.innerHTML += "<p> You have $" + userMoney + "</p>";
-
-    
 }
