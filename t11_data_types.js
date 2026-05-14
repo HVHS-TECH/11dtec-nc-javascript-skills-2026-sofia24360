@@ -1,5 +1,5 @@
 /****************************
-Name of task: Input from HTML
+Name of task: Data Types
 ****************************/
 
 
@@ -8,7 +8,7 @@ Name of task: Input from HTML
 /*****************************
  Main code
 ******************************/
-console.log("Running task 10");
+console.log("Running task 11");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 const NAME_FIELD = document.getElementById("nameField")
