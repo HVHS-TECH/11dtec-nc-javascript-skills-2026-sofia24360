@@ -20,8 +20,6 @@ const POCKET_MONEY = document.getElementById("pocketMoney")
  Fuctions
 ********************************/
 function getFormInput(){
-    let userAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p> Your age is " + userAge + "</p>";
     let userMoney = POCKET_MONEY.value;
     if (userMoney >= 4){
         OUTPUT.innerHTML += "<p> A chocolate bar costs $4. You CAN afford a chocolate bar. </p>";
