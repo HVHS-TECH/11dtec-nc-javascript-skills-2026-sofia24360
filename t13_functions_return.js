@@ -26,6 +26,6 @@ function getFormInput(){
     else{
         OUTPUT.innerHTML += "<p> A chocolate bar costs $4. Sorry you CAN'T afford a chocolate bar </p>"
     }
-
-    
 }
+
+function calculatechange(_)
