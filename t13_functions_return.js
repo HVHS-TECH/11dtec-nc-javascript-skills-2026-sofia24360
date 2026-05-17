@@ -1,5 +1,5 @@
 /****************************
-Name of task: Conditionals
+Name of task: Functions Return
 ****************************/
 
 
@@ -8,7 +8,7 @@ Name of task: Conditionals
 /*****************************
  Main code
 ******************************/
-console.log("Running task 12");
+console.log("Running task 13");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 const POCKET_MONEY = document.getElementById("pocketMoney")
