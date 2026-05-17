@@ -10,6 +10,8 @@ Name of task: Functions Return
 ******************************/
 console.log("Running task 13");
 
+
+
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 const POCKET_MONEY = document.getElementById("pocketMoney")
 
@@ -30,6 +32,6 @@ function getFormInput(){
 
 function calculatechange(_pocketmoney, _price){
     if (userMoney >= 4){
-        let change 
+        let change = _pocketmoney - _price;
     }
 }
