@@ -1,1 +1,31 @@
-/* Paste your code from the last task */
+/****************************
+Name of task: Conditionals
+****************************/
+
+
+
+
+/*****************************
+ Main code
+******************************/
+console.log("Running task 12");
+
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+const POCKET_MONEY = document.getElementById("pocketMoney")
+
+
+
+/*******************************
+ Fuctions
+********************************/
+function getFormInput(){
+    let userMoney = POCKET_MONEY.value;
+    if (userMoney >= 4){
+        OUTPUT.innerHTML += "<p> A chocolate bar costs $4. You CAN afford a chocolate bar. </p>";
+    }
+    else{
+        OUTPUT.innerHTML += "<p> A chocolate bar costs $4. Sorry you CAN'T afford a chocolate bar </p>"
+    }
+
+    
+}

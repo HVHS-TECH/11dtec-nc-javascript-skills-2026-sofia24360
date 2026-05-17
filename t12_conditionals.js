@@ -1,5 +1,5 @@
 /****************************
-Name of task: Data Types
+Name of task: Conditionals
 ****************************/
 
 
@@ -8,10 +8,9 @@ Name of task: Data Types
 /*****************************
  Main code
 ******************************/
-console.log("Running task 11");
+console.log("Running task 12");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
-const AGE_FIELD = document.getElementById("ageField")
 const POCKET_MONEY = document.getElementById("pocketMoney")
 
 
