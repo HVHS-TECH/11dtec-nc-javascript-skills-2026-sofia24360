@@ -28,4 +28,8 @@ function getFormInput(){
     }
 }
 
-function calculatechange(_)
+function calculatechange(_pocketmoney, _price){
+    if (userMoney >= 4){
+        
+    }
+}
