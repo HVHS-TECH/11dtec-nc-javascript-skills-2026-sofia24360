@@ -13,7 +13,7 @@ console.log("Running task 14");
 
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
-const POCKET_MONEY = document.getElementById("pocketMoney")
+const USER_RATE = document.getElementById("userRate")
 
 
 /*******************************
