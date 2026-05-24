@@ -14,7 +14,6 @@ console.log("Running task 13");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 const POCKET_MONEY = document.getElementById("pocketMoney")
-calculateChange(4)
 
 /*******************************
  Fuctions
