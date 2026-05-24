@@ -33,5 +33,6 @@ function getFormInput(){
 function calculatechange(_pocketmoney, _price){
     if (userMoney >= 4){
         let change = _pocketmoney - _price;
+        OUTPUT.innerHTML +="<p>Your change is </p>" + change
     }
 }
