@@ -34,5 +34,5 @@ function getFormInput(){
 
 function calculatechange(_pocketmoney, _price){
         let change = _pocketmoney - _price;
-        OUTPUT.innerHTML +="<p>Your change is </p>" + change
+        OUTPUT.innerHTML +="<p>Your change is </p>" + change;
 }
