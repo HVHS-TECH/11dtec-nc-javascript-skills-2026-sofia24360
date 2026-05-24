@@ -20,5 +20,6 @@ const USER_RATE = document.getElementById("userRate")
  Fuctions
 ********************************/
 getFormInput(){
-    let rateArray = [""]
+    let rateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"]
+    let
 }
