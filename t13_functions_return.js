@@ -14,7 +14,7 @@ console.log("Running task 13");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 const POCKET_MONEY = document.getElementById("pocketMoney")
-var change = (,4)
+calculateChange = (POCKET_MONEY,4)
 
 
 /*******************************
