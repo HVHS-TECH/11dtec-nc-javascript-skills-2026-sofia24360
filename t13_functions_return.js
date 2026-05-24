@@ -14,7 +14,6 @@ console.log("Running task 13");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 const POCKET_MONEY = document.getElementById("pocketMoney")
-calculateChange = (POCKET_MONEY,4)
 
 
 /*******************************
@@ -35,4 +34,5 @@ function getFormInput(){
 function calculateChange(_pocketmoney, _price){
         let change = _pocketmoney - _price;
         OUTPUT.innerHTML +="<p>You will get $</p>" + change;
+        return change;
 }
