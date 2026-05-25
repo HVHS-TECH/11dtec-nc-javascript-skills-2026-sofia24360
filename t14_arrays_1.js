@@ -20,21 +20,7 @@ const USER_CHOICE = document.getElementById("userChoice")
  Fuctions
 ********************************/
 function getFormInput(){
-    let ratearray = POCKET_MONEY.value;
-    if (userMoney >= 4){
-        OUTPUT.innerHTML += "<p> A chocolate bar costs $4. You CAN afford a chocolate bar. </p>";
-    calculateChange(userMoney, 4)
-    
-        
-    }
-    else{
-        OUTPUT.innerHTML += "<p> A chocolate bar costs $4. Sorry you CAN'T afford a chocolate bar </p>"
-    }
-}
-
-function calculateChange(_pocketmoney, _price){
-        
-        let change = _pocketmoney - _price;
-        OUTPUT.innerHTML +="<p>You will get $</p>" + change +"<p>change.</p>";
-        return change;
+    let rateArray = ["You loath chocolate". "Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
+    let choice = USER_CHOICE.value;
+    OUTPUT.innerHTML = "You think " + rateArray[choice] + "<br>";
 }
