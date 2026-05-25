@@ -13,14 +13,14 @@ console.log("Running task 14");
 
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
-const POCKET_MONEY = document.getElementById("pocketMoney")
+const USER_CHOICE = document.getElementById("userChoice")
 
 
 /*******************************
  Fuctions
 ********************************/
 function getFormInput(){
-    let userMoney = POCKET_MONEY.value;
+    let ratearray = POCKET_MONEY.value;
     if (userMoney >= 4){
         OUTPUT.innerHTML += "<p> A chocolate bar costs $4. You CAN afford a chocolate bar. </p>";
     calculateChange(userMoney, 4)
