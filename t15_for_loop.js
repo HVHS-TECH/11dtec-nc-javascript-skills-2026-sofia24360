@@ -1,5 +1,5 @@
 /****************************
-Name of task: Arrays
+Name of task: For Loops
 ****************************/
 
 
@@ -8,7 +8,7 @@ Name of task: Arrays
 /*****************************
  Main code
 ******************************/
-console.log("Running task 14");
+console.log("Running task 15");
 
 
 
