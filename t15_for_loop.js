@@ -22,5 +22,9 @@ const USER_CHOICE = document.getElementById("userChoice")
 function getFormInput(){
     let rateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
     let choice = USER_CHOICE.value;
-    OUTPUT.innerHTML += "You think " + rateArray[choice] + "<br>";
+    for (let rateArray=choice; rateArray<=3; rateArray=++);{
+        OUTPUT.innerHTML += "You think " + rateArray[choice] + "<br>";
 }
+    }
+    
+    
