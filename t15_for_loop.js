@@ -20,10 +20,10 @@ const USER_CHOICE = document.getElementById("userChoice")
  Fuctions
 ********************************/
 function getFormInput(){
-    for(let rateArray = userChoice; rateArray<4; rateArray= rateArray++){
+    for(let i = userChoice; i<=3; i= i++){
         console.log("Lyrics: " + rateArray)
     }
     let rateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
     let choice = USER_CHOICE.value;
-    OUTPUT.innerHTML += "You think " + rateArray[choice] + "<br>";
+    OUTPUT.innerHTML += "You think " + rateArray[i] + "<br>";
 }
