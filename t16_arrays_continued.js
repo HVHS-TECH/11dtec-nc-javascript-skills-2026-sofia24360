@@ -21,9 +21,7 @@ const USER_CHOICE = document.getElementById("userChoice")
 ********************************/
 function getFormInput(){
     let itemArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
-    let choice = USER_ITEM.value;
     itemArray.push("choice")
-    for
-    
-  
+    let choice = USER_ITEM.value;
+    OUTPUT.innerHTML += "You have added " + rateArray[choice] + "to the list";
 }
