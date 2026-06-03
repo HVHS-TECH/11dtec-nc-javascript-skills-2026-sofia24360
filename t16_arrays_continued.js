@@ -26,7 +26,8 @@ function getFormInput(){
     OUTPUT.innerHTML += "You have added " + choice + " to the list";
 }
 function itemList(){
-for(i=0; i<itemArray.length; i++){
-        OUTPUT.innerHTML+="These are the items on your shopping list: " + i + ": " + itemArray[i]+"<br>"
+    OUTPUT.innerHTML+="<br> These are the items on your shopping list:" + "<br>";
+    for(i=0; i<itemArray.length; i++){
+    OUTPUT.innerHTML+= i + ": " + itemArray[i]+"<br>"
     }
 }
