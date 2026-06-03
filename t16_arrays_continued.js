@@ -28,6 +28,6 @@ function getFormInput(){
 function itemList(){
     OUTPUT.innerHTML+="<br> These are the items on your shopping list: <br>";
     for(i=0; i<itemArray.length; i++){
-    OUTPUT.innerHTML+= i + ": " + itemArray[i]+"<br>"
+    OUTPUT.innerHTML+= i + ": " + itemArray[i] + "<br>"
     }
 }
