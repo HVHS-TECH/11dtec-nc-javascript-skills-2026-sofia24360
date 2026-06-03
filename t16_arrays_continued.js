@@ -22,7 +22,7 @@ const USER_ITEM = document.getElementById("userItem")
     let itemArray = ["milk", "chocolate", "honey","water"];
 function getFormInput(){
     let choice = USER_ITEM.value;
-    itemArray.push("choice")
+    itemArray.push(choice)
     OUTPUT.innerHTML += "You have added " + choice + " to the list";
 }
 function itemList(){
