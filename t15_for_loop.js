@@ -10,20 +10,18 @@ Name of task: For Loop
 ******************************/
 console.log("Running task 15");
 
+console.log("Starting loop");
+for(let count = 0; count < 10; count++){
+    console.log("current count " = count)
+}
+
+console.log("looped stopped");
+
+console.log("100 bottles of milk: ");
 
 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
-const USER_CHOICE = document.getElementById("userChoice")
 
 
 /*******************************
  Fuctions
 ********************************/
-function getFormInput(){
-    for(let i = choice; i<rateArray.length; i= i++){
-        console.log("Lyrics: " + rateArray)
-    }
-    let rateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
-    let choice = USER_CHOICE.value;
-    OUTPUT.innerHTML += "You think " + rateArray[i] + "<br>";
-}
