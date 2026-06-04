@@ -1,5 +1,5 @@
 /****************************
-Name of task: Arrays Continued
+Name of task: Validation
 ****************************/
 
 
@@ -8,7 +8,7 @@ Name of task: Arrays Continued
 /*****************************
  Main code
 ******************************/
-console.log("Running task 16");
+console.log("Running task 18");
 
 
 
